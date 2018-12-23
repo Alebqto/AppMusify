@@ -1,0 +1,70 @@
+.icon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf002;');
+}
+.icon-envelope-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf003;');
+}
+.icon-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00c;');
+}
+.icon-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.icon-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.icon-times {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.icon-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf019;');
+}
+.icon-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01c;');
+}
+.icon-pencil {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf040;');
+}
+.icon-plus-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf055;');
+}
+.icon-minus-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf056;');
+}
+.icon-question-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf059;');
+}
+.icon-info-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05a;');
+}
+.icon-exclamation-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06a;');
+}
+.icon-comment {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf075;');
+}
+.icon-chevron-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf078;');
+}
+.icon-sign-out {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08b;');
+}
+.icon-sign-in {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf090;');
+}
+.icon-upload {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf093;');
+}
+.icon-briefcase {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b1;');
+}
+.icon-group {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;');
+}
+.icon-users {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;');
+}
+.icon-user-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf234;');
+}
+

@@ -1,0 +1,86 @@
+
+<Div >
+  <h3 style="margin-right: 15px;text-align: center;">
+    Estilos
+  </h3>
+</Div>
+<div class="row" style="padding: 25px;">
+  <div class="row">
+    <div >
+      <p-button (click)='addStyle()'  label="Nuevo Estilo"  styleClass=".ui-button-secondary" icon="fa fa-plus" data-toggle="modal" data-target="#exampleModal"></p-button>
+    </div>
+  </div>
+  <p-table class="table-responsive" [columns]="cols" [value]="dataStyles" [rows]="10" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,20]">
+    <ng-template pTemplate="header" let-columns>
+      <tr>
+        <th *ngFor="let col of columns">
+          {{col.header}}
+        </th>
+        <th class="ng-star-inserted">Acciones</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+      <tr>
+        <td *ngFor="let col of columns">
+          {{rowData[col.field]}}
+        </td>
+        <td >
+
+          <p-button label="Editar"(click)="goToEditStyle(rowData)" styleClass="ui-button-warning" icon="fa fa-pencil" data-toggle="modal" data-target="#exampleModal"></p-button>
+        </td>
+      </tr>
+    </ng-template>
+
+  </p-table>
+</div>
+
+<!-- Modal -->
+<p-dialog [(visible)]="displayModal" [contentStyle]="{'max-height':'900px'}"
+          header="Nuevo Estilo" [(visible)]="displayModal" [modal]="true" [responsive]="true"  [minWidth]="500" [minY]="500"
+          [baseZIndex]="10000">
+  <div class="row col-md-12">
+    <p-messages  [(value)]="messages"></p-messages>
+  </div>
+  <div class="form-group">
+    <label >Nombre del estilo</label>
+    <div  >
+      <input type="text" class="form-control"
+             maxlength="30" [(ngModel)]="newStyle.name"  pInputText/>
+    </div>
+
+
+    <div class="dropdown-divider"></div>
+    <div class="col-md-12 ">
+      <div class="botones">
+        <button pButton  type="button" (click)="saveStyle()"  label="Guardar"></button>
+        <button pButton  type="button" (click)="cancelarSave()"label="Cancelar" class="ui-button-secondary"></button>
+      </div>
+    </div>
+  </div>
+</p-dialog>
+
+
+<!-- Modal2 -->
+<p-dialog [(visible)]="displayModalEdit" [contentStyle]="{'max-height':'700px'}"
+          header="Editar artista" [modal]="true" [responsive]="true"  [minWidth]="500" [minY]="70"
+          [baseZIndex]="10000">
+  <div style="padding: 10px">
+    <label >Nombre del Estilo</label>
+    <div  >
+      <input type="text" class="form-control"
+             maxlength="30" [(ngModel)]="editStyle.name"  pInputText/>
+    </div>
+  </div>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="col-md-12 ">
+    <div class="botones">
+      <button pButton  type="button" (click)='saveEdit()'  label="Guardar"></button>
+      <button pButton  type="button" (click)="cancelarEdit()"label="Cancelar" class="ui-button-secondary"></button>
+    </div>
+  </div>
+</p-dialog>
+
+<p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle" width="425"></p-confirmDialog>

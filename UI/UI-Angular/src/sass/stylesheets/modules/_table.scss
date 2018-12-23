@@ -1,0 +1,12 @@
+.table-responsive{
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+  .table td, .table th {
+    padding: 0px;
+    vertical-align: middle;
+  }
+  .ui-table-thead{
+    font-size: 14px;
+  }
+}

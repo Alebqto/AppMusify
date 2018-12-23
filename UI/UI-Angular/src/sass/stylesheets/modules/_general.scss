@@ -1,0 +1,259 @@
+.model-box{
+  border-color : $color-modelbox-border !important;
+  border: 1px solid;
+}
+.botones{
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding-bottom: 10px;
+  width:100%;
+}
+
+
+body, #mainWrapper {
+  height: 70%;
+  background-color: #F3F5F6;
+}
+
+body, .form-control{
+  font-size:12px!important;
+}
+#menu-left a {
+  color:white;
+  text-decoration: none; /* no underline */
+}
+
+.delete, .edit {
+  font-size: 20px;
+  color:gray;
+  margin-left: 20px;
+
+}
+
+.delete {
+}
+
+.btn-option {
+  width:10%;
+  cursor:pointer;
+  margin-right: 20px;
+
+}
+
+.floatRight{
+  float:right;
+  margin-right: 18px;
+}
+
+.has-error{
+  color:red;
+}
+
+.formcontainer{
+  background-color: #F6F7F9;
+  padding: 20px;
+}
+
+.tablecontainer{
+  padding-left: 20px;
+}
+
+.generic-container {
+  padding: 20px;
+  background-color: #EAE7E7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 30px black;
+  margin: 150px 0px 0px 440px;
+  width: 50%;
+}
+
+.custom-width {
+  width: 80px !important;
+}
+
+button {
+  background-color: #36f443;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+.cancelbtn {
+  background-color: #EC3536;
+
+}
+
+.centralBox{
+  width:60%;
+  margin:0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#mainWrapper {
+  height: 70%;
+  background-color:rgb(245, 245, 245);
+}
+
+html {
+  margin:0px;
+  padding:0px;
+}
+#header {
+
+  position: fixed;
+  top:0px;
+  width: 100%;
+  background-color: #F6F7F9;
+  z-index:1;
+  padding:0px;
+  margin:0px;
+}
+
+#headerDown {
+  width:100%;
+  height: 30px;
+  background:white;
+}
+
+#footer {
+  width: 100%;
+  float: left;
+  min-height:100px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #F6F7F9;
+}
+
+
+#content {
+  float: left;
+  width: 100%;
+  padding-top:100px;
+  padding-left: 100px;
+  min-height: 800px;
+  background: #F3F5F6;
+}
+
+#menu-left {
+  position: fixed;
+  top:100px;
+  display:none;
+  min-height: 1200px;
+  width: 20%;
+  color:white;
+  background-color: #464A54;
+  text-align: left;
+}
+#menu-left-imp {
+  position: fixed;
+  width:5%;
+  padding-top:20px;
+  top:100px;
+  min-height: 1200px;
+  background-color: #464A54;
+
+}
+#menu-left-imp ul {
+  margin-top:40px;
+  padding: 0px;
+}
+
+
+#menu-left-imp img {
+  margin: 0 auto;
+  height: 20px;
+  width: 20px;
+}
+#menu-items {
+  width:20%;
+  margin:0 auto;
+}
+#menu-left-img {
+  width:50px;
+  height:50px;
+  margin:0 auto;
+  margin-top:20px;
+}
+#menu-left-img img {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin:0px;
+}
+
+.wrapper {
+  color:black;
+  margin: 0px;
+  padding:0px;
+  background: #5C616F;
+  min-width: 200px;
+}
+
+li {
+  list-style:none;
+  margin-top: 10px;
+}
+
+.menu-tit {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu-btn{
+  margin-left: 20px;
+  color: #C6D6DC;
+  font-size: 15px;
+  cursor:pointer;
+}
+
+#menu-left  img {
+
+  vertical-align: middle;
+  float: right;
+
+  align-content: center;
+  margin: 0 10% 0 10%;
+  height: 20px;
+  width: 20px;
+}
+
+.tab-content {
+  background-color: $color-tab-content;
+}
+
+p-button button {
+  width: 100%;
+}
+
+p-messages{
+  width: 100%;
+}
+
+p-fileupload{
+  width: 100%;
+  button{
+    width: 130px;
+  }
+}
+
+.buttonOptions {
+  padding-right: 10px;
+  button{
+    background-color: #3333339c !important;
+    border: 1px solid #3333339c !important;
+  }
+}
+
+.ui-progressbar {
+  height: 18px !important;
+}
+
+p-table{
+  text-align: center;
+}
